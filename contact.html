@@ -295,6 +295,19 @@
               <!-- Card Body -->
               <div class="card-body">
                 <form>
+                  <div class="mb-4">
+                    <label class="form-label" for="employment"
+                      >Choose User</label
+                    >
+                    <select id="employment" class="form-control">
+                      <option selected="" disabled="">Choose</option>
+                      <option>Investor</option>
+                      <option>Startup</option>
+                      <option>Mentor</option>
+                      <option>Company</option>
+                    </select>
+                  </div>
+
                   <div class="row">
                     <div class="col-sm-6 mb-4 mb-sm-0">
                       <!-- Form -->
@@ -339,74 +352,29 @@
                   <!-- Form -->
                   <div class="mb-4">
                     <label class="form-label" for="contactsFormJobTitle"
-                      >Job title</label
+                      >Email</label
                     >
                     <input
-                      type="text"
+                      type="email"
                       class="form-control"
                       name="contactsFormNameJobTitle"
                       id="contactsFormJobTitle"
-                      placeholder="E-commerce platform"
-                      aria-label="E-commerce platform"
+                      placeholder="example@gmail.com"
                     />
                   </div>
                   <!-- End Form -->
 
-                  <div class="row">
-                    <div class="col-sm-6 mb-4 mb-sm-0">
-                      <!-- Form -->
-                      <div class="mb-4">
-                        <label class="form-label" for="contactsFormCompany"
-                          >Company</label
-                        >
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="contactsFormNameCompany"
-                          id="contactsFormCompany"
-                          placeholder="Htmlstream"
-                          aria-label="Htmlstream"
-                        />
-                      </div>
-                      <!-- End Form -->
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm-6">
-                      <!-- Form -->
-                      <div class="mb-4">
-                        <label
-                          class="form-label"
-                          for="contactsFormCompanyWebsite"
-                          >Company website</label
-                        >
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="contactsFormNameCompanyWebsite"
-                          id="contactsFormCompanyWebsite"
-                          placeholder="htmlstream.com"
-                          aria-label="htmlstream.com"
-                        />
-                      </div>
-                      <!-- End Form -->
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-
                   <!-- Form -->
                   <div class="mb-4">
                     <label class="form-label" for="contactsFormWorkEmail"
-                      >Work email</label
+                      >Subject</label
                     >
                     <input
                       type="text"
                       class="form-control"
                       name="contactsFormNameWorkEmail"
                       id="contactsFormWorkEmail"
-                      placeholder="email@site.com"
-                      aria-label="email@site.com"
+                      placeholder="Subject"
                     />
                   </div>
                   <!-- End Form -->
@@ -414,7 +382,7 @@
                   <!-- Form -->
                   <div class="mb-4">
                     <label class="form-label" for="contactsFormDetails"
-                      >Details</label
+                      >Message</label
                     >
                     <textarea
                       class="form-control"
